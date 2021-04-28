@@ -1,35 +1,35 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
-  margin:0px;
-  padding:0px;
-  font:poppins;
-  background-color: rgb(244, 244, 244);
+ margin: 0px;
+ padding: 0px;
+ font: poppins;
 }
 
-#main {
-  width: 100%;
-  height: 25vh;
+#main{
+  width: 1%;
+  height: 50vh;
   position: relative;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(26, 26, 26, 0.952);
-  box-shadow: 5px 10px 30px rgba(94, 94, 94, 0.952);
-  z-index: 1;
+nav{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ position: fixed;
+ top: 0;
+ left:0;
+ width: 100%;
+ background-color: white; 
+ box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+ Z-index: 1;
+
 }
 
 .logo img{
-  height: 150px;
+  height: 85px;
 }
 
 .menu{
@@ -37,33 +37,34 @@ nav {
   display: flex;
 }
 
-.menu li{
-  display: flex;
-  color: rgb(223, 168, 66);
+.menu li {
   height: 40px;
-  line-height: 43px;
-  padding: 0px 22px;
+  line-height: 44px;
   margin: 3px;
-  font-size: 1.75em;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8em;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
-  
-  
+  color: gray;
+
 }
+
 a{
   text-decoration: none;
 }
+
 .hey{
-  color: white;
+  color: #39bfbd;
   font-weight: 500;
-  font-size: 1.75em;
-  border-bottom: 2px solid white;
+  font-size: 0.9em;
+  border-bottom: 2px solid #39bfbd;
 }
 
 .image{
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 500px;
 }
 
 .image img{
@@ -80,46 +81,46 @@ a{
   position: absolute;
   left: 50%;
   right: 50%;
-  translate:(-50%, -50%);
-  
+   margin: -110px 0 0 -520px ;
+
 }
-.main-text{
-  width: 800px;
+
+.main text{
+  width: 500px;
 }
 
 .main-text h1{
-  font-size: 4.5em;
-  color: rgb(255, 168, 66);
+  font-size: 3.5em;
+  color: #1c3548;
   margin: 0px 0px 10px 0px;
-  line-height: 100px;
+  line-height: 60px; 
 }
 
 .main-text p{
- color: rgb(61, 61, 61);
- font-size: 3em;
+  color: grey;
 }
 
 .resume-btn{
-  width: 300px;
-  height: 77px;
-  font-size: 2.25em;
+  width: 190px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: rgb(255, 168, 66);
+  background-color: #1aaa90;
   border-radius: 20px;
-  box-shadow: 5px 10px 30px rgba(223, 139, 119, 0.2);
+  box-shadow: 5px 10px 30px rgba(24, 139, 119,0.2);
 }
 
 .resume-btn:hover{
-  background-color: rgb(210, 168, 66);
+  background-color: #23cdaf;
   transition: all ease 0.2s;
 }
 
 .menu li:hover{
-   background-color: rgb(210, 168, 66);
-   color: white;
-   box-shadow: 5px 10px 30px rgba(223, 139, 119, 0.2);
-   transition: all ease 0.2s;
+ 
+  background-color: #23cdaf;
+  color : white;
+  box-shadow: 5px 10px 30px rgba(24, 139, 199, 0.2);
+  transition: all ease 0.2s; 
 }
